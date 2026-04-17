@@ -77,8 +77,8 @@ dd {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0.5rem;
     width: 100%;
     min-height: 50px;
     font-size: 0.8rem;
@@ -86,4 +86,11 @@ dd {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+}
+
+.webring {
+  position: fixed;
+  bottom: 2.5rem;
+  z-index: 50;
+  transform: scale(0.8);
 }
